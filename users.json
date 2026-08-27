@@ -1,10 +1,10 @@
 {
     "admin": {
-        "password": "SUNIKFF",
+        "password": "KINGFF",
         "role": "admin"
     },
     "Vps": {
-        "password": "SUNIKFF",
+        "password": "KINGFF",
         "role": "admin",
         "servers": []
     },
