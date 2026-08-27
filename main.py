@@ -184,7 +184,7 @@ def generate_random_password(length=10):
     return ''.join(random.choices(chars, k=length))
 def load_users():
     """تحميل بيانات المستخدمين بأمان حتى مع تعدد الـThreads."""
-    default = {"admin": {"password": "SUNIKFF", "role": "admin"}}
+    default = {"admin": {"password": "KINGFF", "role": "admin"}}
     try:
         with USERS_FILE_LOCK:
             if not os.path.exists(USERS_FILE):
