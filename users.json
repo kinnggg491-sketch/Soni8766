@@ -1,0 +1,38 @@
+{
+    "admin": {
+        "password": "SUNIKFF",
+        "role": "admin"
+    },
+    "Vps": {
+        "password": "SUNIKFF",
+        "role": "admin",
+        "servers": []
+    },
+    "99": {
+        "password": "99",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "84a1636f",
+                "link": "84a1636f",
+                "login_url": "/84a1636f/login",
+                "dashboard_url": "http://127.0.0.1:5000/84a1636f/home/api/server",
+                "full_link": "http://127.0.0.1:5000/84a1636f/home/api/server",
+                "type": "python",
+                "ram": "4GB",
+                "disk": "10GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-08-15 14:19:19.525622",
+                "expiry": "2027-06-11 14:19:19.476157",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 100,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": true,
+                "started_at": "2026-08-15 14:19:34.613392"
+            }
+        ],
+        "account_expiry": "2027-06-11 14:19:19.525658"
+    }
+}
